@@ -1,0 +1,39 @@
+
+              <div class="container"> 
+                <div class="row">
+                    <div class="col-md-12">
+                        <form  name='form' style="border:1px solid #ccc"  id="fb-root">
+                    
+                            <h1>Sign Up</h1>
+                            <p>Please fill in this form to create an account.</p>
+                            <hr>
+                            <label for="uname"><b>Username</b></label>
+                            <input type="text" placeholder="Enter Username" name="name"  [(ngModel)]="obj.name">
+
+                            <label for="email"><b>Email</b></label>
+                            <input type="text" placeholder="Enter Email" name="email" [(ngModel)]="obj.email"> 
+                        
+                            <label for="psw"><b>Password</b></label>
+                            <input type="password" placeholder="Enter Password" name='pass' [(ngModel)]="obj.pass">
+                           
+                            <label for="psw-repeat"><b>Repeat Password</b></label>
+                            <input type="password" placeholder="Repeat Password" name='repeatPass'[(ngModel)]="obj.repeatPass" >
+                            <label>
+                            <input type="checkbox" checked="checked" name="remember"   style="margin-bottom:15px" [(ngModel)]="obj.remember" /> Remember me
+                            </label>
+                            
+                            <p>By creating an account you agree to our <a style="color:dodgerblue">Terms & Privacy</a>.</p>
+                        
+                            <button type="submit" class="signupbtn" (click)="onSubmit(obj)">Sign Up</button>
+                            <a id="loginbtn">Login with Facebook</a>
+                        </form>
+                        <div class="clearfix">
+                          
+                            <!-- <div class="pull-right">
+                                  <button  class="fbnbtn" href="#/api/auth/facebook" target="_blank">Login With Facebook</button>
+                                  </div> -->
+                      </div>
+                    </div>
+                </div>
+            </div>
+          

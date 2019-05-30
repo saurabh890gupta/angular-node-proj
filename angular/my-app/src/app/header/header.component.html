@@ -1,0 +1,33 @@
+<header>
+    <div class="container">
+        <div class="row">
+            <div class="col-md-4">
+                <div class="logo">
+                    <a routerLink="banner"><img  src="assets/images/logo.png" alt="img" /></a>
+                </div> 
+            </div>
+            <div class="col-md-8">
+                <nav>
+                    <ul>
+                        <li><a routerLink="/" *ngIf="isLoggedIn=='false'">Home</a></li>
+                        <li><a routerLink="banner" *ngIf="isLoggedIn=='true'">Home</a></li>
+                        <li><a routerLink="showProperty" >About</a></li>
+                        <li><a routerLink="contact">Contact</a></li>
+                        <li><a routerLink="property" *ngIf="isLoggedIn=='true'">property</a></li>
+                        <li><a class="loginbtn" routerLink="login"  *ngIf="isLoggedIn=='false'">Login</a></li>
+                        <li><a class="signinbtn" routerLink="signup"  *ngIf="isLoggedIn=='false'">Signup</a></li>
+                        <li><a class="signinbtn"routerLink="" (click)="onlogout()" *ngIf="isLoggedIn=='true'">Logout</a></li>
+                    
+                    <!-- this is comment for token header show or not after login logout but its not work after refreshpage its also use
+                    location.reload() function -->
+                        <!-- <li><a  *ngIf="token=='false'">java</a></li>
+                            <li><a class="loginbtn" routerLink="login"  *ngIf="token=='false'">Login</a></li>
+                            <li><a class="signinbtn" routerLink="signup"  *ngIf="token=='false'">Signup</a></li>
+                            <li><a class="signinbtn"routerLink="" (click)="onlogout()" *ngIf="token=='true'">Logout</a></li> -->
+                    
+                    </ul>
+                </nav>
+            </div>
+        </div>
+    </div>
+</header>

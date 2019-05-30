@@ -1,0 +1,123 @@
+.picture{
+    width: 220px;
+height: 230px;
+background-color: #808080;
+border: 4px solid #CCC;
+color: #FFF;
+border-radius: 4px;
+margin: 35px auto;
+    overflow: hidden;
+    transition: all 0.2s;
+    -webkit-transition: all 0.2s;
+}
+
+  
+  /* text recolor */
+ 
+  /* button recolor */
+  .nav-pills > li.active > a, .btn-primary {
+    /* background-color: #6C6C6C !important;
+   
+    border-color: #6C6C6C !important; */
+    border-radius: 25px; 
+    border: 1px solid  #FDC600 !important;
+    background-color: #FDC600 !important;
+
+  }
+  .nav li {
+    display: inline-block;
+    padding-left: 17px;
+  }
+ #propertydescreption{
+   height:100px;
+
+ } 
+ 
+/* .jumbotron {
+  padding-top: 30px;
+  padding-bottom: 30px;
+  margin-bottom: 30px;
+  color: inherit;
+  background-color: #5a3e3e;
+} */
+#finish{
+  border-radius:1px;
+  }
+  #next{ border-radius:1px;}
+  .space{
+    width: 15px;
+    height: 100px;
+  }
+  .propertybox ul li{
+    font-size: 15px;
+    border: 1px solid  #FDC600;
+    background-color: #FDC600;
+    border-radius: 10px;
+
+}
+.nav li a {
+    position: relative;
+    display: block;
+    padding: 18px 80px;
+}
+.nav-tabs {
+    border-bottom: none;
+}
+
+.nav-tabs>li.active>a, .nav-tabs>li.active>a:focus, .nav-tabs>li.active>a:hover {
+    color: #555;
+    cursor: default;
+
+}
+
+.picture{
+    width: 220px;
+    height: 230px;
+    background-color: #808080;
+    border: 4px solid black;
+    
+    }
+    
+    .img01{
+        width: 100%;
+      border:  1px solid grey;
+  
+    }
+    
+    .property-icon {
+        clear: both;
+        padding: 3px 0px;
+        margin-top: 15px;
+        background-color: #EDEDED;
+        color: #555;
+        display: block;
+    }
+    
+.pagination ul li {
+    display: inline-block;
+
+}
+.pagination ul li {
+ border: 1px solid gray;
+ padding: 9px;
+ border-radius: 2px;
+
+}
+
+.Property-title-line {
+    width: 100px;
+    height: 2px;
+    background: #FFA600;
+    margin: 0px 530px 33px;
+    position: relative;
+    top: -2px;
+}
+
+.Search-title-line {
+    width: 100px;
+    height: 2px;
+    background: #FFA600;
+    margin: 0px 0px 33px;
+    position: relative;
+    top: -2px;
+}

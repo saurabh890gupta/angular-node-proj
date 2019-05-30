@@ -1,0 +1,24 @@
+#content {
+    position: relative;
+    width: 100%;
+    height: 700px;
+    border: 2px solid gray;
+    overflow: hidden;
+}
+#scrollable {
+    height: 700px;
+    width: 100%;
+    overflow-y: scroll;
+}
+.picture{
+    width: 220px;
+height: 230px;
+background-color: #808080;
+border: 4px solid #CCC;
+color: #FFF;
+border-radius: 4px;
+margin: 35px auto;
+    overflow: hidden;
+    transition: all 0.2s;
+    -webkit-transition: all 0.2s;
+}

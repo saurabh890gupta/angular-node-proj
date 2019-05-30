@@ -1,0 +1,61 @@
+<div class="banner-down">
+  <div class="container">
+      <div class="row">
+          
+          <h3 style="text-align:center">Property Details</h3>
+          <div class="Property-title-line">
+              </div>
+                  <div class="form-inline">
+                      <h4>Search Data According To Own Way:</h4>
+                     
+                      <div class="Search-title-line"></div>
+                      <div class="form-group">
+                          <label>Search:</label>
+                          <input type="text" ng-model="search" class="form-control" placeholder="Search">
+                      </div>
+                  </div> 
+              <div id="content">
+                      <div id="scrollable"> 
+                              
+              <form *ngFor="let data of result">
+                      <!-- <div class="form-group">
+                              <label>Search:</label>
+                              <input type="text" ng-model="search" class="form-control" placeholder="Search">
+                          </div> -->
+                          
+                  <div class="row">
+
+                      <div class="col-md-4">
+                            <div class="picture" >
+                                    <img src="" class="img-responsive" id="img001" alt="img" />
+                                    <h4>{{data.propertyname}}   </h4>
+                                    <span class="pull-left"><b>Rs.{{data.propertyprice}}</b></span> 
+                                    <span class="pull-right"><b> Area :</b> 300 </span>
+                               
+                                    <div class="property-icon">
+                                                    <img src="../../assets/images/icon/bed-orange.png" alt="img"/>(5)|
+                                                    <img src="../../assets/images/icon/cars-orange.png" alt="img"/>(2)|
+                                                    <img src="../../assets/images/icon/os-orange.png" alt="img"/>(1)  
+                                    </div>
+                              
+                               
+                                </div>
+                      </div>
+                  
+                      <div class="col-md-4">
+                            <div>
+                                <p>
+                                    {{data.propertydescreption}}</p></div>
+                      </div>
+
+                      <!-- <div class="col-md-4"  >
+                              <h4>kumar</h4>
+                      </div> -->
+                  </div>
+              </form>
+          </div>
+      </div>
+      </div>
+     
+  </div>
+</div>

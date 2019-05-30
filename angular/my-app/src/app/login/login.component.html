@@ -1,0 +1,27 @@
+<div class="container">
+  <div class="row">
+    <!-- <div class="col-lg-12 col-sm-12 col-xs-12 alert alert-success" ng-show="isDisplay">
+        <strong>{{successMessage }}</strong>
+    </div> -->
+  </div>
+  <div class="row">
+    <div class="col-md-12">
+      <h2>Login Form</h2>
+        <form style="border:1px solid #ccc"  >
+          <label for="uname"><b>Username</b></label>
+            <input type="text" placeholder="Enter Username" name="uname" [(ngModel)]="obj.uname">
+        
+            <label for="psw"><b>Password</b></label>
+            <input type="password" placeholder="Enter Password" name="pass" [(ngModel)]="obj.pass">
+                
+            <button type="submit"  class="lgbtn" (click)=onLogin(obj) >Login</button>
+            <label>
+              <input type="checkbox" checked="checked" name="remember" [(ngModel)]="obj.remember" > Remember me
+            </label>
+            <div style="background-color:#f1f1f1">
+              <span class="psw">Forgot <a routerLink="/forget">password?</a></span>
+            </div>
+        </form>
+    </div>
+  </div>
+</div>
