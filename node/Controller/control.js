@@ -279,7 +279,7 @@ module.exports.Signup = (req, res) => {
                                         service: 'gmail',
                                         auth: {
                                             user: 'jssaurabh.gupta786@gmail.com',
-                                            pass: 'Kumar@123'
+                                            pass: ''
                                         }
                                     });
                                     var maillist = [mydata.email, 'jssaurabh.gupta786@gmail.com'];
@@ -1052,8 +1052,8 @@ module.exports.LoginWithFb=async(req ,res)=>{
 
 
 
-const accountSid = 'ACe2d125a7edb7a24dfbf558ff05e6b34c';
-const authToken = '13d48d283b6f8eeea9858aec05db92b9';
+const accountSid = '';
+const authToken = '';
 
 // require the Twilio module and create a REST client
 const client = require('twilio')(accountSid, authToken);
