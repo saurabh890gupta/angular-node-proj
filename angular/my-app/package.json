@@ -24,7 +24,7 @@
     "angular-font-awesome": "^3.1.2",
     "angular-localstorage": "^1.1.5",
     "angular-tabs-component": "^1.0.6",
-    "bootstrap": "^3.3.7",
+    "bootstrap": "^3.4.1",
     "core-js": "^2.5.4",
     "font-awesome": "^4.7.0",
     "mongoose-version": "^1.1.0",
